@@ -1,0 +1,22 @@
+{
+  "short_name": "F11 Solusi",
+  "name": "F11 Solusi Digital & Komputer Depok",
+  "description": "Portal Resmi F11 Solusi Digital & F11 Komputer Depok / Jakarta. Hardware, Service & IT B2B.",
+  "icons": [
+    {
+      "src": "logo fix f11 digsol.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo fix f11 digsol.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#071527",
+  "theme_color": "#071527",
+  "display": "standalone",
+  "orientation": "portrait"
+}
