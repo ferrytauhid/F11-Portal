@@ -306,7 +306,7 @@
             <div class="space-y-2">
                 <p class="font-bold text-white text-sm mb-3">Kontak & Lokasi Depok</p>
                 <p><i class="fa-brands fa-whatsapp text-emerald-400 mr-2"></i>0895-3063-6236</p>
-                <p><i class="fa-solid fa-envelope text-cyan-400 mr-2"></i>f11komputer@gmail.com</p>
+                <p><i class="fa-solid fa-envelope text-cyan-400 mr-2"></i>f11solusidigital@gmail.com</p>
                 <p><i class="fa-solid fa-location-dot text-cyan-400 mr-2"></i>Depok, Jawa Barat, Indonesia</p>
             </div>
         </div>
@@ -338,11 +338,11 @@
         const fallbackProducts = [
             {
                 id: "ret-01",
-                name: "Laptop l15 G3 Ryzen 5 Pro",
+                name: "Laptop L15 G3 Ryzen 5 Pro",
                 category: "retail",
                 priceText: "Rp 4.700.000",
                 badge: "Ready Antar-Jemput",
-                specs: ["Ryzen 5 Pro 5675U", "RAM 16GB / SSD 256GB NVMe", "Layar 12.5\" HD Anti-Glare", "Health SSD Sentinel 100%"],
+                specs: ["Ryzen 5 Pro 5675U", "RAM 16GB / SSD 256GB NVMe", "Layar 15.6\" FHD Anti-Glare", "Health SSD Sentinel 100%"],
                 icon: "fa-laptop"
             },
             {
@@ -433,7 +433,7 @@
             }
 
             grid.classList.remove('hidden');
-            emptyState.classList.add('hidden');
+            emptyState.add ? emptyState.classList.add('hidden') : null;
 
             filteredData.forEach(item => {
                 const isB2B = item.category === 'b2b';
